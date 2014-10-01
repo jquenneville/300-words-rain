@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/***MAIN STYLING---------------------------------*/
+
+body {
+	background-color: #55A6D5;
+	background: repeating-linear-gradient(45deg,
+  #55A6D5,
+  #55A6D5 1px,
+  #5495D1 1px,
+  #5495D1 5px
+);
+}
+h1 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+}
+h2 {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	font-size: 2em;
+	color: #88D2DE;
+	text-align: center;
+	word-wrap: break-word;
+}
+p {
+	font-family: courier, sans-serif;
+	font-size: 100%;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1em; 
+	padding: none;
+	line-height: 10px;
+}
+a {
+	text-decoration: ;
+	margin: none;
+	padding: none;
+}
+/***CSS SHAPES---------------------------------*/
+
+#rain {
+/*	diagonal line
+degree. stroke 1 color: 
+color 5495D1*/
+}
+#clouds {
+/*circle
+cloud
+a value
+transpency 50 %
+color ECECED
+*/
+}
+#oval {
+	width: 200px;
+	height: 100px;
+	background: #ECECED;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	margin-top: -80px;
+	margin-right: -20px;
+	margin-left: -20px;
+	-khtml-opacity: 0.50;
+	opacity: 0.50;
+	float: right;
+}
+/* Cleaner, but slightly less support: use "50%" as value */
+/***TWITTER---------------------------------*/
+#tweetbox {
+	height: 300px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
